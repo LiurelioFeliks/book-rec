@@ -134,8 +134,6 @@ def rec_title():
 #     return list_buku
 
 
-if __name__ == '__main__':
-
 
 
 # from flask import Flask, render_template, request
