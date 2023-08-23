@@ -103,6 +103,8 @@ def rec_title():
         list_buku.append(item)
     list_gabungan.clear()
     return render_template('recommended.html',list_buku = list_buku)
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 # @app.route('/Recommended', methods=['post'])
@@ -133,8 +135,7 @@ def rec_title():
 #     # return list_buku
 #     return list_buku
 
-
-
+# app.run(debug=True)
 
 # from flask import Flask, render_template, request
 # import pickle
